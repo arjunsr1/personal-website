@@ -16,7 +16,9 @@ const Navbar: React.FC = () => {
           <Link href="/bookshelf">Bookshelf</Link>
         </li>
         <li>
-          <Link href="/resume">Resume</Link>
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            Resume
+          </a>
         </li>
       </ul>
     </nav>
