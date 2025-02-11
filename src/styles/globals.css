@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap");
+/* Set the global font to a clean sans-serif typeface */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif; /* You can also use Google Fonts for more options */
+  background-color: #0a1f34; /* Dark navy blue background */
+  color: #ffffff; /* White text for contrast */
+  min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+}
+
+html {
+  height: 100%;
+}
+
+/* Optionally, add some padding to the body for better spacing */
+body {
+  padding: 20px;
+}

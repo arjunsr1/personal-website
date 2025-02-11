@@ -1,0 +1,31 @@
+/* src/styles/Navbar.module.css */
+.navbar {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white; /* White text for links */
+  font-size: 18px;
+  font-weight: regular;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #00aaff; /* Change color on hover */
+}
