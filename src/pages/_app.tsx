@@ -1,4 +1,5 @@
 // src/pages/_app.tsx
+import "../styles/globals.css";
 import Navbar from "../components/Navbar";
 
 const MyApp = ({ Component, pageProps }) => {
