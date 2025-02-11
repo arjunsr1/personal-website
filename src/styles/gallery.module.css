@@ -5,11 +5,8 @@
 
 .imageGrid {
   display: grid;
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(250px, 1fr)
-  ); /* ✅ Responsive columns */
-  gap: 20px; /* ✅ Even spacing between images */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
   justify-content: center;
   padding: 20px;
 }
@@ -18,7 +15,7 @@
 .imageWrapper {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,22 +40,42 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.8); /* ✅ Darkened background */
+  background-color: rgba(0, 0, 0, 0.8);
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 1000;
-  cursor: pointer; /* ✅ Clicking anywhere closes the overlay */
+  cursor: pointer;
 }
 
 /* ✅ Expanded Image Container */
 .fullImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   position: relative;
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 90vw;
+  max-height: 90vh;
 }
 
 .fullImageContainer img {
+  width: auto;
+  height: auto;
+  max-width: 90vw;
+  max-height: 90vh;
   border-radius: 10px;
-  object-fit: contain; /* ✅ Ensures full image is visible */
+  object-fit: contain;
+}
+
+.captionBox {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 8px;
+  border-radius: 4px;
+  margin-top: 10px;
 }
