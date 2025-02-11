@@ -14,6 +14,10 @@ body {
   padding: 20px;
 }
 
+p {
+  font-size: 20px;
+}
+
 a {
   color: #00aaff; /* Light blue for contrast */
   text-decoration: none; /* Removes underline for a clean look */

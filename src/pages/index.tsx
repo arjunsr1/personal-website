@@ -29,17 +29,23 @@ const Home: React.FC = () => {
       </p>
       <br />
       <p>
-        Outside of work, I love to stay active. From regularly running and
-        biking, and *occasionally* swimming, I have found that cardiovascular
-        exercise is a wonderful and natural way to simultaneously clear my head
-        and keep me physically fit. I also love to eat, and am always eager to
-        explore San Francisco&apos;s fantastic restaurant scene!
+        Outside of work, I love to stay active, alternating between running,
+        biking, and swimming. I have found that cardiovascular exercise is a
+        wonderful and natural way to simultaneously clear my head and keep me
+        physically fit. I also love to eat, and am always eager to explore San
+        Francisco&apos;s fantastic restaurant scene!
       </p>
       <br />
       <p>
         In my downtime, I love to read, listen to music, and play guitar. That
         last one is a constant work in progress, but we&apos;ll get there
         eventually :&#41;
+      </p>
+      <br />
+      <p>
+        If you are interested in reaching out, I&apos;d love to chat! Feel free
+        to shoot me an email at{" "}
+        <Link href="mailto:arjun11@gmail.com">arjun11@gmail.com</Link>
       </p>
     </div>
   );

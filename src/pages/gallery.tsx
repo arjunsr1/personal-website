@@ -44,7 +44,7 @@ const Gallery: React.FC = () => {
   return (
     <>
       <div className="main-content">
-        <h1>Special Snaps</h1>
+        <h1>Snaps</h1>
         <br />
         <p>
           A person&apos;s essence is really hard to capture with words alone. So
