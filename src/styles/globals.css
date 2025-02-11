@@ -11,13 +11,28 @@ body {
   background-color: #0a1f34; /* Dark navy blue background */
   color: #ffffff; /* White text for contrast */
   min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+  padding: 20px;
+}
+
+a {
+  color: #00aaff; /* Light blue for contrast */
+  text-decoration: none; /* Removes underline for a clean look */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #66c2ff; /* Slightly lighter blue on hover */
+  text-decoration: underline; /* Adds an underline on hover */
+}
+
+/* Add margin so that content starts below the navbar */
+.main-content {
+  margin-top: 80px; /* Adjust this value depending on navbar height */
+  padding-left: 10vw; /* Moves the text closer to the center but keeps it left-aligned */
+  padding-right: 20vw;
 }
 
 html {
   height: 100%;
-}
-
-/* Optionally, add some padding to the body for better spacing */
-body {
-  padding: 20px;
 }
