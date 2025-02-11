@@ -11,6 +11,13 @@ const Gallery: React.FC = () => {
     height: number;
   } | null>(null);
 
+  const preloadImages = (imageUrls: string[]) => {
+    imageUrls.forEach((src) => {
+      const img = new window.Image();
+      img.src = src;
+    });
+  };
+
   useEffect(() => {
     const fetchImages = async () => {
       try {
@@ -22,6 +29,7 @@ const Gallery: React.FC = () => {
         if (Array.isArray(data)) {
           // Randomize image order
           setImages(data.sort(() => Math.random() - 0.5));
+          preloadImages(data);
         }
       } catch (error) {
         console.error("Error fetching images:", error);
