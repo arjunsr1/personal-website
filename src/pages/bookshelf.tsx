@@ -26,6 +26,7 @@ const Bookshelf: React.FC = () => {
       </p>
       <br />
       <ul className={styles.reviewList}>
+        <li className={styles.reviewItem}>Zero to One - Peter Thiel (2014)</li>
         <li className={styles.reviewItem}>Educated - Tara Westover (2018)</li>
         <li className={styles.reviewItem}>
           I&apos;m Glad My Mom Died - Jeanette McCurdy (2022)
