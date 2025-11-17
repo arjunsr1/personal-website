@@ -18,6 +18,11 @@ p {
   font-size: 20px;
 }
 
+li {
+  font-size: 20px;
+  margin-left: 16px;
+}
+
 a {
   color: #00aaff; /* Light blue for contrast */
   text-decoration: none; /* Removes underline for a clean look */
@@ -35,6 +40,7 @@ a:hover {
   margin-top: 80px; /* Adjust this value depending on navbar height */
   padding-left: 10vw; /* Moves the text closer to the center but keeps it left-aligned */
   padding-right: 20vw;
+  padding-bottom: 100px; /* Add bottom padding to prevent content from being cut off by fixed footer */
 }
 
 html {
