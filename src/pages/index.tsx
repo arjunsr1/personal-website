@@ -23,7 +23,7 @@ const Home: React.FC = () => {
       </p>
       <ul>
         <li>
-          Reworked Affinity's backend infrastructure for persisting deduplicated unified interaction events
+          Reworked Affinity&apos;s backend infrastructure for persisting deduplicated unified interaction events
           across multiple synced credentials and calendars
         </li>
         <li>
@@ -44,7 +44,7 @@ const Home: React.FC = () => {
           Refactored Cisco commerce APIs from SOAP and REST onto GraphQL
         </li>
         <li>
-          Developed product config validation within the realm of Cisco's commerce workspace
+          Developed product config validation within the realm of Cisco&apos;s commerce workspace
         </li>
       </ul>
       <br />
@@ -59,18 +59,18 @@ const Home: React.FC = () => {
         Outside of work, I love to stay active, alternating between running,
         biking, and swimming. I have found that cardiovascular exercise is a
         wonderful way to simultaneously clear my head and keep me physically fit.
-        I also love to eat, and am always eager to explore San Francisco's ever
+        I also love to eat, and am always eager to explore San Francisco&apos;s ever
         evolving restaurant scene!
       </p>
       <br />
       <p>
         In my downtime, I love to read, listen to music, and play guitar. That
-        last one is a constant work in progress, but we'll get there
+        last one is a constant work in progress, but we&apos;ll get there
         eventually.
       </p>
       <br />
       <p>
-        If you are interested in reaching out, I'd love to chat! Feel free
+        If you are interested in reaching out, I&apos;d love to chat! Feel free
         to shoot me an email at{" "}
         <Link href="mailto:arjun11@gmail.com">arjun11@gmail.com</Link>
       </p>
